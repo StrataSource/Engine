@@ -1,20 +1,19 @@
 ---
-name: Feature request
-about: Suggest a feature
+name: Suggest a Feature
+about: Have an idea for something completely new that Chaos could benefit from doing or having? Let us know!
 title: 'Feature: <Title>'
-labels: type/enhancement
+labels: 'Type: Feature'
 assignees: ''
 
 ---
 
-## Which component should be improved?
-Audio, Render, Entity, Gameplay, UI/UX
+## Where would this feature be, or what is it for?
+<!-- Examples include: Audio, Rendering (Shaders), Entities, Gameplay, UI/UX, Hammer, Tools -->
 
-## Describe your suggestion
-Give a clear explanation of what you want us to add. Feel free to add pictures or video!
 
-> Please don't give vague suggestions like "Make button look better" or "Add entity that damages the player".
-> Think, how does it work. What are the inputs. What is the expected outcome?
+## Describe your feature suggestion in more detail:
+<!-- Give a clear explanation of what you want us to add. Feel free to add pictures or video directly to this description!
+Please don't give vague suggestions like "Make button look better" or "Add entity that damages the player".
+Think, how does it work. What are the inputs. What is the expected outcome?
+-->
 
-## Expected result
-Describe how the end result should look like and work
