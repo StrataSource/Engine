@@ -1,0 +1,40 @@
+name: Bug Report
+description: Something not behaving the way it should? Let us know!
+title: "Bug: <Title>"
+labels: ["Type: Bug"]
+body:
+- type: textarea
+  attributes:
+    label: Describe the bug
+    description: A clear description of what the bug is. Please consider adding pictures and/or videos, as they really help!
+    placeholder: |
+      When I do X then Y happens.
+    render: markdown
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: To Reproduce
+    description: Steps to reproduce the behavior.
+    render: markdown
+    placeholder: |
+      1. Open map ...
+      2. Do ...
+      3. See error
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Expected Behavior
+    description: A clear and concise description of what you expected to happen.
+    render: markdown
+    placeholder: |
+      When I do X then Z should happen.
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Operating System
+    description: Windows version, Linux distro, etc.
+  validations:
+    required: false
