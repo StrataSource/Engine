@@ -1,0 +1,22 @@
+name: Suggest an Enhancement
+description: Have an idea for something that could enhance an already-existing thing in the engine? Let us know!
+title: "Enhancement: <Title>"
+labels: ["Type: Enhancement"]
+body:
+- type: dropdown
+  attributes:
+    label: What would this enhancement be for?
+    options: [Audio, Rendering, Entity, Gameplay, UI/UX, Hammer, Tools, Other]
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Describe your enhancement suggestion in more detail
+    description: Feel free to add pictures or video directly to this description!
+    render: markdown
+    placeholder: |
+      Give a clear explanation of what you want us to improve.
+      Please don't give vague, single-line suggestions like "Make button look better" or "Fix the entity that damages the player".
+      How does it currently work, and how should it be improved upon?
+  validations:
+    required: true

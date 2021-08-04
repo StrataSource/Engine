@@ -1,0 +1,22 @@
+name: Suggest a Feature
+description: Have an idea for something completely new that Chaos could benefit from doing or having? Let us know!
+title: "Feature: <Title>"
+labels: ["Type: Feature"]
+body:
+- type: dropdown
+  attributes:
+    label: Which component should be improved?
+    options: [Audio, Rendering, Entity, Gameplay, UI/UX, Hammer, Tools, Other]
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Describe your feature suggestion in more detail
+    description: Feel free to add pictures or video directly to this description!
+    render: markdown
+    placeholder: |
+      Give a clear explanation of what you want us to add. 
+      Please don't give vague suggestions like "Make button look better" or "Add entity that damages the player".
+      How exactly does it work? What are the inputs? What is the expected outcome?
+  validations:
+    required: true
