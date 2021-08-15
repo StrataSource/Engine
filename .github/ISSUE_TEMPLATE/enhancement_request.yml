@@ -13,7 +13,6 @@ body:
   attributes:
     label: Describe your enhancement suggestion in more detail
     description: Feel free to add pictures or video directly to this description!
-    render: markdown
     placeholder: |
       Give a clear explanation of what you want us to improve.
       Please don't give vague, single-line suggestions like "Make button look better" or "Fix the entity that damages the player".
