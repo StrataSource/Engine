@@ -23,6 +23,14 @@ body:
     required: true
 - type: textarea
   attributes:
+    label: Issue Map
+    description: A map that the issue occurs on. 
+    placeholder: |
+      Please explicitly state what map the issue occurs on. If this is not a default map, include a download link to the BSP, VMF, or both.
+  validations:
+    required: true
+- type: textarea
+  attributes:
     label: Expected Behavior
     description: A clear and concise description of what you expected to happen.
     placeholder: |
