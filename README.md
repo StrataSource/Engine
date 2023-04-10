@@ -1,5 +1,4 @@
-# Strata-Source
-
+# Strata Source Issue Tracker
 This repository contains issues dedicated to Strata Source itself, which is the base engine for [Portal 2: Community Edition](https://github.com/StrataSource/Portal-2-Community-Edition) and [Momentum Mod](https://github.com/momentum-mod/game)
 
 ## Issue guidelines
