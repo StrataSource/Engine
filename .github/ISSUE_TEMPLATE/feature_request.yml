@@ -6,7 +6,7 @@ body:
 - type: dropdown
   attributes:
     label: Which component should be improved?
-    options: [Audio, Rendering, Entity, Gameplay, UI/UX, Hammer, Tools, Other]
+    options: [Audio, Rendering, Entity, Gameplay, UI/UX, Hammer, Tools, Scripting, Other]
   validations:
     required: true
 - type: textarea
