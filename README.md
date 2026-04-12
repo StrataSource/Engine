@@ -1,10 +1,11 @@
 <p align="center">
-  <img width=384 src="https://branding.stratasource.org/i/strata/logo/ondark/color.svg"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".assets/logo_white.svg"/>
+    <img width=384 src=".assets/logo_black.svg" alt="Strata Source Logo"/>
+  </picture>
 </p>
 
-# Strata Source Issue Tracker
-
-This repository contains issues for Strata Source, a community-developed branch of the Source Engine. Projects using Strata Source include [**Portal 2: Community Edition**](https://www.portal2communityedition.com/), [**Momentum Mod**](https://momentum-mod.org/) and [**Portal: Revolution**](https://portalrevolution.com/)
+This repository contains issues for *Strata Source*, a community-developed branch of the Source engine. Projects using Strata Source include [*Portal 2: Community Edition*](https://www.portal2communityedition.com/), [*Momentum Mod*](https://momentum-mod.org/), and [*Portal: Revolution*](https://portalrevolution.com/).
 
 ## Issue Guidelines
 
